@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $color-text-highlight;
   text-decoration: none;
 
   &:visited {
@@ -111,12 +111,12 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $color-slate-grey;
-  border-left: 4px solid $color-cool-grey;
-  padding-left: $spacing-unit / 2;
+  color: $color-white;
+  border-left: 4px solid $color-gold;
+  background-color: $color-black;
+  padding: $spacing-unit;
   font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic;
+  font-style: normal;
 
   > :last-child {
     margin-bottom: 0;

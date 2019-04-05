@@ -61,30 +61,30 @@ li > ol {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #2ab6d9; }
+  color: #7CD6EB; }
 
 /**
  * Links
  */
 a {
-  color: #2ab6d9;
+  color: #FFFF83;
   text-decoration: none; }
   a:visited {
-    color: #d59a2b; }
+    color: #ffff50; }
   a:hover {
-    color: #ddae55;
+    color: #FFFF83;
     text-decoration: underline; }
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: #61676c;
-  border-left: 4px solid #9ea5aa;
-  padding-left: 15px;
+  color: #FFFFFF;
+  border-left: 4px solid #AA8E39;
+  background-color: #000000;
+  padding: 30px;
   font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic; }
+  font-style: normal; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -163,9 +163,9 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #2ab6d9; }
+    color: #7CD6EB; }
   .site-title:hover {
-    color: #ddae55; }
+    color: #FFFF83; }
 
 .site-nav {
   float: right;
@@ -173,7 +173,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #ddae55;
+    color: #FFFF83;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -253,7 +253,7 @@ pre {
   .footer-title-contact-line:last {
     float: right; }
   .footer-title-contact-line h2 {
-    color: #2ab6d9; }
+    color: #7CD6EB; }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
@@ -470,8 +470,8 @@ pre {
   .highlight .il {
     color: #099; }
 
-.text-highlight {
-  color: #ddae55; }
+em, strong, .text-highlight {
+  color: #7CD6EB; }
 
 .titleize {
   text-transform: uppercase; }
